@@ -103,7 +103,7 @@ data "aws_iam_policy_document" "alb_log" {
 
     principals {
       type        = "AWS"
-      identifiers = [var.aws_account_id]
+      identifiers = ["582318560864"] # 東京リージョンのELBのAWSアカウントID
     }
   }
 }
