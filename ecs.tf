@@ -3,7 +3,7 @@ resource "aws_ecs_cluster" "example" {
 }
 
 resource "aws_ecs_task_definition" "example" {
-  family                   = "s-aoki-exmaple"
+  family                   = "s-aoki-example"
   cpu                      = "256"
   memory                   = "512"
   network_mode             = "awsvpc"
